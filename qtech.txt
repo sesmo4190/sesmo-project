@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Sesmo Techologies</title>
+<style>
+body{margin:0;background-color:lightblue;}
+h1{font-family:elephant;text-align:center;background-color:skyblue;color:pink}
+h2{font-family:elephant;text-align:center;background-color:skyblue;color:pink}
+p{font-family:Goudy Old Style;text-align:center;background-color:lightgreen}
+</style>
+</head>
+<body>
+<h1><b>History</b></h1>
+<p><b>Quick Technologies is company that deals with services such <br> as graphic design,website development among others.The 
+company <br> offers timely services at discounted prices. Various payment <br> options are available to choose from. Customers
+are required to <br> give the correct address for easier accounting and follow up</b></p>
+<h2><b>Softwares</b></h2>
+
+</body>
+</html>

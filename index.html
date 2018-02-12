@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<html lang="en">
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+<title>Connect Techologies</title>
+<link rel="stylesheet" href="moses.css">
+</head>
+<body>
+
+<div class="header">
+<img src="Qtech.png" alt="Qtech logo"/>
+<h1><b>Quick Technologies</b></h1>
+<h4><b>We are delighted to serve you!</b></h4>
+</div>
+
+<ul class="topnav">
+<li><a class="active"href="#home"><b>Home</b></a></li>
+<li><a href="#qtech.html"><b>About Us</b></a></li>
+<li><a href="#events"><b>Events</b></a></li>
+<li class="dropdown"><a href="javascript:void(0)"
+class="dropbtn"><b>Services</b></a>
+<div class="dropdown-content">
+<a href="#">Web Design</a>
+<a href="#">Graphic Design</a>
+<a href="#">Architectural Design</a>
+</div>
+</li>
+<li><a href="#gallery"><b>Gallery</b></a></li>
+<li><a href="#join"><b>Work with Us</b></a></li>
+<li><a href="#projects"><b>Projects</b></a></li>
+<li><a href="#location"><b>Locate Us</b></a></li>
+<li><input type="text" placeholder="Search.."></li>
+<li style="float:right"><a href="#contact"><b>Contact Us</b></a></li>
+</ul>
+<div class="row">
+<div class="column">
+<div class="container">
+</div></div></div>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="three.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="one.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="two.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div></div></div></div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<h2>VIRUSES</h2>
+<p> <pre>This is a program designed to specifically damage other programs or cause irregular behavior. It is usually designed to perform 2 tasks;
+1.	To replicate itself from 1 computer to another
+2.	To locate itself within a computer system in such a way as to make it possible for it to amend or destroy 
+data files by interfering with the normal process of operation.
+
+               Categories of programs/viruses cause damage:
+1)Virus- it’s a computer virus that spreads from one computer to another eventually performing illicit function for
+ which it was designed.
+2)Worm- it’s a software program that generally burrows into a computer memory until a system crushes. It differs from the
+ virus in that the recurring segment of the programming maintains communication with the segment from which they are created.
+3)Trojan horses- A Trojan horse is a section of a code hidden within a legitimate program or a good program. It does not
+ process the ability to replicate itself.
+4)Time bomb- it’s also called the logic bomb it’s a set of instructions that is executed in conjunction with a predeterm
+ining. The “trigger” is often a specific date or time e.g. April fools day, Friday 13th 
+5)Droppers – they are programs that have been written to perform some apparently useful job but while doing so they writ
+e a virus out to the disc in some cases all that they do is to install viruses.
+6)Failed Viruses- this are that have failed to do the required worked by the program.
+7)Jokers – this is a program that deliberately does unpleasant thing instead of its declared functions. They are not capable 
+of spreading themselves an rely on users to copy them. The joker performs amusing things and its not harmful.</pre>
+</p>
+</div></div>
+<div class="footer"></div>
+<h3>Copyright</h3>
+
+</body>
+</html>
